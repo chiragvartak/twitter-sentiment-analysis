@@ -10,10 +10,10 @@ from keras.preprocessing.sequence import pad_sequences
 
 # Performs classification using CNN.
 
-FREQ_DIST_FILE = '../train-processed-freqdist.pkl'
-BI_FREQ_DIST_FILE = '../train-processed-freqdist-bi.pkl'
-TRAIN_PROCESSED_FILE = '../train-processed.csv'
-TEST_PROCESSED_FILE = '../test-processed.csv'
+FREQ_DIST_FILE = '/Users/chirag.vartak/learn/twitter-sentiment-analysis/dataset/raw-small-processed-freqdist.pkl'
+BI_FREQ_DIST_FILE = '/Users/chirag.vartak/learn/twitter-sentiment-analysis/dataset/raw-small-processed-freqdist-bi.pkl'
+TRAIN_PROCESSED_FILE = '/Users/chirag.vartak/learn/twitter-sentiment-analysis/dataset/raw-small-processed.csv'
+TEST_PROCESSED_FILE = '/Users/chirag.vartak/learn/twitter-sentiment-analysis/dataset/test-small-processed-2.csv'
 GLOVE_FILE = './dataset/glove-seeds.txt'
 dim = 200
 

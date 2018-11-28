@@ -6,8 +6,8 @@ import numpy as np
 from utils import save_results_to_csv
 
 
-TRAIN_PROCESSED_FILE = '../train-processed.csv'
-TEST_PROCESSED_FILE = '../test-processed.csv'
+TRAIN_PROCESSED_FILE = '/Users/chirag.vartak/learn/twitter-sentiment-analysis/dataset/raw-small-processed.csv'
+TEST_PROCESSED_FILE = '/Users/chirag.vartak/learn/twitter-sentiment-analysis/dataset/test-small-processed-2.csv'
 USE_BIGRAMS = False
 TRAIN = True
 
